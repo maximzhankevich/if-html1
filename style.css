@@ -1,0 +1,19 @@
+.h1{
+    font-size: 48px;
+    color: teal;
+    text-align: center;   
+}
+
+.a{
+    font-size: 36px;
+    color: violet;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+}
+
+.a:hover{
+    color: rgba(167, 88, 167, .5);
+}
