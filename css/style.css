@@ -64,8 +64,8 @@
     position: absolute;
     top: 100%;
     left: 0;
-    
-    
+
+
 }
 
 .nav__item:hover{
@@ -202,8 +202,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end ;
-    
-   
+
+
 }
 
 .img{
@@ -238,7 +238,7 @@
     width: 193px;
     height: 211px;
     margin-right: 223px;
-    
+
 }
 
 .title__link{
