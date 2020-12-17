@@ -211,6 +211,8 @@
 .img{
     display: block;
     margin:0 auto;
+    width: 25%;
+    height: 25%;
 }
 
 .descr{
@@ -218,6 +220,7 @@
     font-weight: 400;
     color: #000000;
     margin-top: 52px;
+    text-align: center;
 }
 
 /*footer*/
@@ -230,17 +233,18 @@
 
 }
 
+.footer__logo{
+    display: none;
+}
+
 .footer__link{
     display: flex;
     padding-top: 120px;
     line-height: 2em;
 }
 
-.block1__link{
-    width: 193px;
-    height: 211px;
-    margin-right: 223px;
-    
+.block__link{
+    flex-basis: 33%;
 }
 
 .title__link{
@@ -265,15 +269,253 @@
     opacity: .4;
 }
 
-.block2__link{
-    width: 133px;
-    height: 310px;
-    margin-right: 284px;
-}
-
 .copyright{
     font-size: 14px;
     color: #FFFFFF;
     margin-top: 64px;
 }
+
+@media only screen and (max-width: 320px){
+    .container{
+        max-width: 90%;
+    }
+
+    .footer{
+        height: 223px;
+    }
+
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .title::after{
+       display: none;
+    }
+
+    .wrap{
+        display: block;
+        justify-content: center;
+    }
+
+    .img{
+        width: 15%;
+        height: 15%;
+        
+    }
+
+    .descr{
+        font-size: 21px;
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .footer__logo{
+        display: block;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer__link{
+        padding-top: 0;
+    }
+
+    .title__link{
+        font-size: 15px;
+        
+    }
+
+    .link__item{
+        display: none;
+    }
+
+    .copyright{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .container{
+        max-width: 90%;
+    }
+
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .title::after{
+       display: none;
+    }
+
+    .wrap{
+        display: block;
+        justify-content: center;
+    }
+
+    .img{
+        width: 15%;
+        height: 15%;
+        
+    }
+
+    .descr{
+        font-size: 21px;
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .footer{
+        height: 223px;
+    }
+
+    .footer__logo{
+        display: block;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer__link{
+        padding-top: 0;
+    }
+
+    .title__link{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .link__item{
+        display: none;
+    }
+
+    .copyright{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 630px){
+    .container{
+        max-width: 90%;
+    }
+
+    .title{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .title::after{
+        content: "";
+        display: block;
+        width: 70px;
+        height: 2px;
+     }
+ 
+     .wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+
+     .descr{
+        font-size: 21px;
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .footer{
+        height: 450px;
+    }
+
+    .title__link{
+        font-size: 17px;
+    }
+    
+    .link__item{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 630px) and (max-width: 768px){
+    .container{
+        max-width: 90%;
+    }
+
+    .title{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .title::after{
+        content: "";
+        display: block;
+        width: 70px;
+        height: 2px;
+     }
+ 
+     .wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+
+     .descr{
+        font-size: 21px;
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .footer{
+        height: 500px;
+    }
+
+    .title__link{
+        font-size: 17px;
+        
+    }
+    
+    .link__item{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .container{
+        max-width: 90%;
+    }
+
+    .title{
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .title::after{
+        content: "";
+        display: block;
+        width: 85px;
+        height: 3px;
+     }
+ 
+     .wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+
+     .descr{
+        font-size: 21px;
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .footer{
+        height: 570px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px){
+    .container{
+        max-width: 90%;
+    }
 
