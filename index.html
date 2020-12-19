@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+    <!--<header class="header">
         <div class="container">
             <div class="header__wrap">
                 <div class="heaedr__logo">
@@ -48,7 +48,7 @@
                     <img src="./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917 1.svg" alt="app_store">
                 </div>
         </div>
-    </div>
+    </div>-->
     <section>
         <div class="container">
             <h2 class="title">
@@ -56,19 +56,27 @@
             </h2>
             <div class="wrap">
                 <div class="img_descr_wrap">
-                    <img class="img" src="img/support.svg" alt="support">
+                    <svg class="img">
+                        <use xlink:href="img/sprite__support.svg#support"></use>
+                    </svg>
                     <p class="descr">Support 24/7</p>
                 </div>
                 <div class="img_descr_wrap">
-                    <img class="img" src="img/communicate.svg" alt="Communicate directly">
+                    <svg class="img">
+                        <use xlink:href="img/communicate__sprite.svg#communicate"></use>
+                    </svg>
                     <p class="descr">Communicate directly</p>
                 </div>
                 <div class="img_descr_wrap">
-                    <img class="img" src="img/book.svg" alt="Book onlines">
+                    <svg class="img">
+                        <use xlink:href="img/book__sprite.svg#book"></use>
+                    </svg>
                     <p class="descr">Book online</p>
                 </div>
                 <div class="img_descr_wrap">
-                    <img class="img" src="img/like.svg" alt="Real guest reviews">
+                    <svg class="img">
+                        <use xlink:href="img/like__sprite.svg#like"></use>
+                    </svg>
                     <p class="descr">Real guest reviews</p>
                 </div>
             </div>
@@ -76,8 +84,9 @@
     </section>
     <footer class="footer">
         <div class="container">
+            <img src="img/logo_footer.png" alt="logo_footer" class="footer__logo">
             <div class="footer__link">
-                <div class="block1__link">
+                <div class="block__link">
                     <h2 class="title__link">About</h2>
                     <div class="link">
                         <a href="#" class="link__item">How Triphouse works</a>
@@ -86,7 +95,7 @@
                         <a href="#" class="link__item">Terms</a>
                     </div>
                 </div>
-                <div class="block2__link">
+                <div class="block__link">
                     <h2 class="title__link">Property types</h2>
                     <div class="link">
                         <a href="#" class="link__item">Guest houses</a>
@@ -97,7 +106,7 @@
                         <a href="#" class="link__item">Hostels</a>
                     </div>
                 </div>
-                <div class="block3__link">
+                <div class="block__link">
                     <h2 class="title__link">Support</h2>
                     <div class="link">
                         <a href="#" class="link__item">Contact Customer Service</a>
