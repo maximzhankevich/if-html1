@@ -9,11 +9,14 @@
     <title>Document</title>
 </head>
 <body>
-    <!--<header class="header">
+    <header class="header">
         <div class="container">
             <div class="header__wrap">
                 <div class="heaedr__logo">
                     <img src="./img/logo_vector.png" alt="logo">
+                    <svg class="logo_small ">
+                        <use xlink:href="/img/logo__small.svg#logo_small"></use>
+                    </svg>
                 </div>
                 <div class="nav__img">
                     <nav class="nav">
@@ -21,8 +24,11 @@
                         <a href="#" class="nav__item">Attractions</a>
                     </nav>
                     <div class="header__img">
-                        <a href="#"><img src="./img/Night.svg" alt=""></a>
-                        <a href="#"><img src="./img/AccountCircle.svg" alt=""></a>
+                        <a href="#"><img src="./img/Night.svg" alt="icon" class="night__img"></a>
+                        <a href="#"><img src="./img/AccountCircle.svg" alt="icon" class="account__img"></a>
+                        <svg class="menu">
+                            <use xlink:href="/img/menu__mobile.svg#menu"></use>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -35,20 +41,37 @@
                 </h1>
                 <div class="form__descr">
                     <p class="search__descr">Your destination or hotel name</p>
-                    <p class="search__descr">Check-in — Check-out</p>
+                    <p class="search__descr">Check-in — Check-out</p> 
                 </div>
                 <div class="input__btn">
-                    <input placeholder="New York" type="text" name="Hotel" id="Hotel">
+                    <input placeholder="New York" type="text" name="Hotel" id="Hotel" >
                     <input placeholder="Tue 15 Sept — Sat 19 Sept" type="text" name="Check-in — Check-out" id="Check-in—Check-out">
                     <input placeholder="2 Adults — 0 Children — 1 Room" type="text" name="2 Adults — 0 Children — 1 Room" id="Adults—0Children—1Room">
                     <button class="btn">Search</button>
                 </div>
+                <div class="input__mobile ">
+                    <div class="input__mobile__wrap">    
+                        <input placeholder="Your destination or hotel name" type="text" name="Hotel" id="Hotel__mobile" class="col-s-6">
+                    <div class="check_input">
+                        <p class="in__date">Check-in date</p>
+                        <input placeholder="Tue 15 Sept 2020" type="text"name="Check-in" id="Check-in" class="col-s-3">
+                        <p class="out__date">Check-out date</p>
+                        <input placeholder="Sat 19 Sept 2020" type="text"name="Check-out" id="Check-out" class="col-s-3">
+                    </div>
+                    <div class="input__mobile__3bllocks ">
+                        <input placeholder="Adults 2" type="text"  name="Adults" id="Adults" class="col-s-2">
+                        <input placeholder="Children 0" type="text" name="Children" id="Children" class="col-s-2">
+                        <input placeholder="Room 1" type="text"  name="Room" id="Room" class="col-s-2">
+                    </div>
+                    <button class="btn__mobile col-s-6">Search</button>
+                </div>
+                    </div>
                 <div class="apps">
                     <img src="./img/google-play-badge.svg" alt="google">
                     <img src="./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917 1.svg" alt="app_store">
                 </div>
         </div>
-    </div>-->
+    </div>
     <section>
         <div class="container">
             <h2 class="title">
@@ -57,25 +80,25 @@
             <div class="wrap">
                 <div class="img_descr_wrap">
                     <svg class="img">
-                        <use xlink:href="img/sprite__support.svg#support"></use>
+                        <use xlink:href="/img/sprite__support.svg#support"></use>
                     </svg>
                     <p class="descr">Support 24/7</p>
                 </div>
                 <div class="img_descr_wrap">
                     <svg class="img">
-                        <use xlink:href="img/communicate__sprite.svg#communicate"></use>
+                        <use xlink:href="/img/communicate__sprite.svg#communicate"></use>
                     </svg>
                     <p class="descr">Communicate directly</p>
                 </div>
                 <div class="img_descr_wrap">
                     <svg class="img">
-                        <use xlink:href="img/book__sprite.svg#book"></use>
+                        <use xlink:href="/img/book__sprite.svg#book"></use>
                     </svg>
                     <p class="descr">Book online</p>
                 </div>
                 <div class="img_descr_wrap">
                     <svg class="img">
-                        <use xlink:href="img/like__sprite.svg#like"></use>
+                        <use xlink:href="/img/like__sprite.svg#like"></use>
                     </svg>
                     <p class="descr">Real guest reviews</p>
                 </div>
@@ -93,7 +116,7 @@
                         <a href="#" class="link__item">Careers</a>
                         <a href="#" class="link__item">Privacy</a>
                         <a href="#" class="link__item">Terms</a>
-                    </div>
+                    </div>     
                 </div>
                 <div class="block__link">
                     <h2 class="title__link">Property types</h2>
