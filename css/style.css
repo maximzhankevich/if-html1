@@ -890,7 +890,7 @@ position: relative;
         top: 30%;
         bottom: 70%;
         right: -3%;
-}
+    }
     
     
     .arrow__slide{
@@ -902,6 +902,9 @@ position: relative;
     .destinations__title{
         font-size: 28px;
         line-height: 33px;
+    }
+    .destinations__button{
+        margin-bottom: 24px;
     }
 
     .destinations__button button:nth-child(1){
@@ -927,12 +930,18 @@ position: relative;
     }
 
     .img__inner{
-        width: 50%;
-        height: 156px;
+        position: relative;
+        background: rgba(56, 56, 56);
+        box-shadow: inset 0px 4px 70px rgba(56, 56, 56, 0.5);
+        width: 136px;
+        height: 136px;
     }
 
     .img__inner img{
-        width: 95%;
+        width: 136px;
+    }
+
+    .img__inner:nth-child(2){
         position: relative;
     }
 
@@ -943,6 +952,32 @@ position: relative;
     .img__inner:nth-child(4){
         display: none;
     }
+
+    .img__inner p{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .destinations__arrow{
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 30%;
+        bottom: 70%;
+        right: 0;
+    }
+
+    .destinations__arrow svg{
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
 
     .sign__up{
         display: none;
