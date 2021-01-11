@@ -899,7 +899,14 @@ position: relative;
         margin: 7px 8px;
     }
 
+    .destinations__wrap{
+        height: 379px;
+        position: relative;
+    }
+
     .destinations__title{
+        margin-top: 40px;
+        margin-bottom: 32px;
         font-size: 28px;
         line-height: 33px;
     }
@@ -909,40 +916,42 @@ position: relative;
 
     .destinations__button button:nth-child(1){
         font-size: 19px;
-        width: 99px;
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-    }
+        width: 29%;
+        margin-right: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
     .destinations__button button:nth-child(2){
-        width: 99px;
+        width: 29%;
         font-size: 19px;
+        border-radius: 4px;
+        margin-right: 16px;
     }
     
     .destinations__button button:nth-child(3){
-        width: 99px;
+        width: 29%;
         font-size: 19px;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
+        border-radius: 4px;
     }
 
     .destinations__button button>span{
         display: none;
     }
 
+
     .img__inner{
-        position: relative;
-        background: rgba(56, 56, 56);
-        box-shadow: inset 0px 4px 70px rgba(56, 56, 56, 0.5);
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0px 4px 70px rgba(255, 255, 255);
         width: 136px;
         height: 136px;
     }
 
     .img__inner img{
         width: 136px;
-    }
-
-    .img__inner:nth-child(2){
-        position: relative;
+        
     }
 
     .img__inner:nth-child(3){
@@ -962,11 +971,15 @@ position: relative;
     .destinations__arrow{
         width: 28px;
         height: 28px;
-        position: absolute;
-        top: 30%;
-        bottom: 70%;
-        right: 0;
-    }
+        position: relative;
+        bottom: 17%;
+        left: 104%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-100%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+}
 
     .destinations__arrow svg{
         width: 14px;
@@ -981,6 +994,10 @@ position: relative;
 
     .sign__up{
         display: none;
+    }
+
+    .footer{
+        margin-top: 0;
     }
     
 
@@ -1329,12 +1346,101 @@ position: relative;
         margin: 7px 9px;
     }
 
+    .destinations__wrap{
+        height: 379px;
+        position: relative;
+    }
+
+    .destinations__title{
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .destinations__button{
+        margin-bottom: 24px;
+    }
+
+    .destinations__button button:nth-child(1){
+        font-size: 19px;
+        width: 29%;
+        margin-right: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+    .destinations__button button:nth-child(2){
+        width: 29%;
+        font-size: 19px;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    
+    .destinations__button button:nth-child(3){
+        width: 29%;
+        font-size: 19px;
+        border-radius: 4px;
+    }
+
+    .destinations__button button>span{
+        display: none;
+    }
+
+
+    .img__inner{
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0px 4px 70px rgba(255, 255, 255);
+        width: 50%;
+        height: 50%;
+    } 
+
+    .img__inner img{
+        width: 95%;
+        
+    }
+
+    .img__inner:nth-child(3){
+        display: none;
+    }
+
+    .img__inner:nth-child(4){
+        display: none;
+    }
+
+    .img__inner p{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .destinations__arrow{
+        width: 28px;
+        height: 28px;
+        position: relative;
+        bottom: 25%;
+        left: 101%;
+    }
+
+    .destinations__arrow svg{
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
     .sign__up{
         display: none;
     }
 
     .footer{
         height: 223px;
+        margin-top: 0;
     }
 
     .footer__logo{
@@ -1679,6 +1785,94 @@ position: relative;
         margin: 7px 9px;
     }
 
+    .destinations__wrap{
+        height: 379px;
+        position: relative;
+    }
+
+    .destinations__title{
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .destinations__button{
+        margin-bottom: 24px;
+    }
+
+    .destinations__button button:nth-child(1){
+        font-size: 19px;
+        width: 30%;
+        margin-right: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+    .destinations__button button:nth-child(2){
+        width: 30%;
+        font-size: 19px;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    
+    .destinations__button button:nth-child(3){
+        width: 30%;
+        font-size: 19px;
+        border-radius: 4px;
+    }
+
+    .destinations__button button>span{
+        display: none;
+    }
+
+
+    .img__inner{
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0px 4px 70px rgba(255, 255, 255);
+        width: 50%;
+        height: 50%;
+    } 
+
+    .img__inner img{
+        width: 95%;
+        
+    }
+
+    .img__inner:nth-child(3){
+        display: none;
+    }
+
+    .img__inner:nth-child(4){
+        display: none;
+    }
+
+    .img__inner p{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .destinations__arrow{
+        width: 28px;
+        height: 28px;
+        position: relative;
+        bottom: 35%;
+        left: 100%;
+    }
+
+    .destinations__arrow svg{
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
     .sign__up{
         display: none;
     }
@@ -2003,6 +2197,98 @@ position: relative;
         margin: 7px 9px;
     }
 
+    .destinations__wrap{
+        height: 379px;
+        position: relative;
+    }
+
+    .destinations__title{
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .destinations__button{
+        margin-bottom: 24px;
+    }
+
+    .destinations__button button:nth-child(1){
+        font-size: 19px;
+        width: 30%;
+        margin-right: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+    .destinations__button button:nth-child(2){
+        width: 30%;
+        font-size: 19px;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    
+    .destinations__button button:nth-child(3){
+        width: 30%;
+        font-size: 19px;
+        border-radius: 4px;
+    }
+
+    .destinations__button button>span{
+        display: none;
+    }
+
+
+    .img__inner{
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0px 4px 70px rgba(255, 255, 255);
+        width: 50%;
+        height: 50%;
+    } 
+
+    .img__inner img{
+        width: 95%;
+        
+    }
+
+    .img__inner:nth-child(3){
+        display: none;
+    }
+
+    .img__inner:nth-child(4){
+        display: none;
+    }
+
+    .img__inner p{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .destinations__arrow{
+        width: 28px;
+        height: 28px;
+        position: relative;
+        bottom: 35%;
+        left: 100%;
+    }
+
+    .destinations__arrow svg{
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
+    .sign__up{
+        display: none;
+    }
+
     .footer{
         height: 500px;
     }
@@ -2273,6 +2559,94 @@ position: relative;
         margin: 7px 8px;
     }
 
+    .destinations__wrap{
+        height: 379px;
+        position: relative;
+    }
+
+    .destinations__title{
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .destinations__button{
+        margin-bottom: 24px;
+    }
+
+    .destinations__button button:nth-child(1){
+        font-size: 19px;
+        width: 31%;
+        margin-right: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+    .destinations__button button:nth-child(2){
+        width: 31%;
+        font-size: 19px;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    
+    .destinations__button button:nth-child(3){
+        width: 31%;
+        font-size: 19px;
+        border-radius: 4px;
+    }
+
+    .destinations__button button>span{
+        display: none;
+    }
+
+
+    .img__inner{
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0px 4px 70px rgba(255, 255, 255);
+        width: 50%;
+        height: 50%;
+    } 
+
+    .img__inner img{
+        width: 95%;
+        
+    }
+
+    .img__inner:nth-child(4){
+        display: none;
+    }
+
+    .img__inner p{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .destinations__arrow{
+        width: 28px;
+        height: 28px;
+        position: relative;
+        bottom: 35%;
+        left: 100%; 
+    }
+
+    .destinations__arrow svg{
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
+    .sign__up{
+        display: none;
+    }
+
     .footer{
         height: 500px;
     }
@@ -2486,6 +2860,7 @@ position: relative;
         text-align: center;
     }
 
+
     .footer{
         height: 570px;
     }
@@ -2522,7 +2897,7 @@ position: relative;
     .homes{
         background-color: #EAF0F9;
         width: 100%;
-        height: 404px;
+        height: 600px;
         margin-top: 40px;
     }
 
@@ -2581,6 +2956,94 @@ position: relative;
         margin: 7px 8px;
     }
 
+    .destinations__wrap{
+        height: 379px;
+        position: relative;
+    }
+
+    .destinations__title{
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .destinations__button{
+        margin-bottom: 24px;
+    }
+
+    .destinations__button button:nth-child(1){
+        font-size: 19px;
+        width: 31%;
+        margin-right: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+    .destinations__button button:nth-child(2){
+        width: 31%;
+        font-size: 19px;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    
+    .destinations__button button:nth-child(3){
+        width: 31%;
+        font-size: 19px;
+        border-radius: 4px;
+    }
+
+    .destinations__button button>span{
+        display: none;
+    }
+
+
+    .img__inner{
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0px 4px 70px rgba(255, 255, 255);
+        width: 50%;
+        height: 50%;
+    } 
+
+    .img__inner img{
+        width: 95%;
+        
+    }
+
+    .img__inner:nth-child(4){
+        display: none;
+    }
+
+    .img__inner p{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .destinations__arrow{
+        width: 28px;
+        height: 28px;
+        position: relative;
+        bottom: 40%;
+        left: 100%;
+    }
+
+    .destinations__arrow svg{
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
+    .sign__up{
+        display: none;
+    }
+
     .footer{
         height: 570px;
     }
@@ -2632,7 +3095,7 @@ position: relative;
     .homes{
         background-color: #EAF0F9;
         width: 100%;
-        height: 404px;
+        height: 600px;
         margin-top: 40px;
     }
 
@@ -2687,4 +3150,91 @@ position: relative;
         margin: 7px 8px;
     }
 
+    .destinations__wrap{
+        height: 379px;
+        position: relative;
+    }
+
+    .destinations__title{
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .destinations__button{
+        margin-bottom: 24px;
+    }
+
+    .destinations__button button:nth-child(1){
+        font-size: 19px;
+        width: 32%;
+        margin-right: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
 }
+    .destinations__button button:nth-child(2){
+        width: 32%;
+        font-size: 19px;
+        border-radius: 4px;
+        margin-right: 16px;
+    }
+    
+    .destinations__button button:nth-child(3){
+        width: 31%;
+        font-size: 19px;
+        border-radius: 4px;
+    }
+
+    .destinations__button button>span{
+        display: none;
+    }
+
+
+    .img__inner{
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0px 4px 70px rgba(255, 255, 255);
+        width: 50%;
+        height: 50%;
+    } 
+
+    .img__inner img{
+        width: 95%;
+        
+    }
+
+
+    .img__inner p{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .destinations__arrow{
+        width: 28px;
+        height: 28px;
+        position: relative;
+        bottom: 45%;
+        left: 100%;
+        
+    }
+
+    .destinations__arrow svg{
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
+    .sign__up{
+        margin-top: 120px;
+    }
+
+}
+
