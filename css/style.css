@@ -318,7 +318,8 @@
     top: 30%;
     bottom: 70%;
     right: -1%;
-    box-shadow: 1px 1px 3px 2px rgba(175, 175, 175, .5);
+    box-shadow:  2px 4px 3px rgba(175, 175, 175, .5);
+}
 
 .slide__hotel:hover {
     background-color: #3b3b3b;
@@ -467,7 +468,7 @@
     -moz-transform: translate(-50, -50);
     -ms-transform: translate(-50, -50);
     -o-transform: translate(-50, -50);
-    box-shadow: 1px 1px 3px 2px rgba(175, 175, 175, .5);
+    box-shadow:  2px 4px 3px rgba(175, 175, 175, .5);
 }
 
 .destinations__arrow>svg {
