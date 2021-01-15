@@ -115,8 +115,8 @@
     margin-left: 24px;
 }
 
-.form__descr>p {
-    margin-right: 221px;
+.form__descr p {
+    margin-right: 161px;
 }
 
 .search__descr {
@@ -151,6 +151,7 @@
     border: none;
     font-size: 18px;
     color: #383838;
+    padding-left: 24px;
 }
 
 .Adults—0Children—1Room {
@@ -159,6 +160,7 @@
     border: none;
     font-size: 18px;
     color: #383838;
+    padding-left: 24px;
 }
 
 .btn {
@@ -671,6 +673,9 @@
         padding: 8px;
     }
     .Hotel__mobile {
+        background-image: url(img/Zoom.svg);
+        background-repeat: no-repeat;
+        padding: 16px 8px 16px 22px;
         height: 48px;
         font-weight: 500;
         font-size: 15px;
@@ -682,12 +687,7 @@
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
-    }
-    .Hotel__mobile::placeholder {
-        background-image: url(/img/Zoom.svg);
-        background-position: left;
-        background-repeat: no-repeat;
-        padding: 16px 8px 16px 22px;
+        
     }
     .check_input {
         display: flex;
@@ -951,8 +951,8 @@
         width: 28px;
         height: 28px;
         position: relative;
-        bottom: 17%;
-        left: 104%;
+        bottom: 23%;
+        left: 103%;
         transform: translate(-50%, -50%);
         -webkit-transform: translate(-100%, -50%);
         -moz-transform: translate(-50%, -50%);
@@ -1285,18 +1285,19 @@
         margin-top: 4px;
     }
     .slide__hotel {
-        width: 33px;
-        height: 33px;
+        width: 28px;
+        height: 28px;
         position: absolute;
         top: 25%;
         bottom: 75%;
-        right: -3%;
+        right: -1%;
     }
     .arrow__slide {
-        width: 18px;
-        height: 18px;
-        margin: 7px 9px;
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
     }
+    
     .destinations__wrap {
         height: 379px;
         position: relative;
@@ -1686,18 +1687,19 @@
         margin-top: 4px;
     }
     .slide__hotel {
-        width: 33px;
-        height: 33px;
+        width: 28px;
+        height: 28px;
         position: absolute;
         top: 35%;
         bottom: 65%;
-        right: -2%;
+        right: 0;
     }
     .arrow__slide {
-        width: 18px;
-        height: 18px;
-        margin: 7px 9px;
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
     }
+
     .destinations__wrap {
         height: 379px;
         position: relative;
@@ -2059,18 +2061,19 @@
         margin-top: 4px;
     }
     .slide__hotel {
-        width: 33px;
-        height: 33px;
+        width: 28px;
+        height: 28px;
         position: absolute;
         top: 50%;
         bottom: 50%;
         right: 0;
     }
     .arrow__slide {
-        width: 18px;
-        height: 18px;
-        margin: 7px 9px;
+        width: 14px;
+        height: 14px;
+        margin: 7px 8px;
     }
+
     .destinations__wrap {
         height: 379px;
         position: relative;
@@ -2394,18 +2397,19 @@
         margin-top: 4px;
     }
     .slide__hotel {
-        width: 33px;
-        height: 33px;
+        width: 28px;
+        height: 28px;
         position: absolute;
         top: 40%;
         bottom: 60%;
-        right: -1%;
+        right: 0;
     }
     .arrow__slide {
-        width: 19px;
-        height: 19px;
+        width: 14px;
+        height: 14px;
         margin: 7px 8px;
     }
+    
     .destinations__wrap {
         height: 379px;
         position: relative;
@@ -2757,16 +2761,16 @@
         margin-top: 4px;
     }
     .slide__hotel {
-        width: 33px;
-        height: 33px;
+        width: 28px;
+        height: 28px;
         position: absolute;
         top: 40%;
         bottom: 60%;
-        right: -1%;
+        right: 0;
     }
     .arrow__slide {
-        width: 19px;
-        height: 19px;
+        width: 14px;
+        height: 14px;
         margin: 7px 8px;
     }
     .destinations__wrap {
@@ -2828,7 +2832,7 @@
         height: 28px;
         position: relative;
         bottom: 15%;
-        left: 97%;
+        left: 96%;
     }
     .destinations__arrow svg {
         width: 14px;
@@ -2922,16 +2926,16 @@
         margin-top: 4px;
     }
     .slide__hotel {
-        width: 33px;
-        height: 33px;
+        width: 28px;
+        height: 28px;
         position: absolute;
         top: 40%;
         bottom: 60%;
-        right: -1%;
+        right: 0;
     }
     .arrow__slide {
-        width: 19px;
-        height: 19px;
+        width: 14px;
+        height: 14px;
         margin: 7px 8px;
     }
     .destinations__wrap {
