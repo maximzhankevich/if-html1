@@ -684,7 +684,7 @@
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
-        
+
     }
     .Hotel__mobile::placeholder{
         background-image: url(../img/Zoom.svg);
@@ -1300,7 +1300,7 @@
         height: 14px;
         margin: 7px 8px;
     }
-    
+
     .destinations__wrap {
         height: 379px;
         position: relative;
@@ -2412,7 +2412,7 @@
         height: 14px;
         margin: 7px 8px;
     }
-    
+
     .destinations__wrap {
         height: 379px;
         position: relative;
