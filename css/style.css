@@ -116,7 +116,7 @@
 }
 
 .form__descr p {
-    margin-right: 161px;
+    margin-right: 221px;
 }
 
 .search__descr {
@@ -132,7 +132,7 @@
 }
 
 .Hotel {
-    width: 33%;
+    width: 467px;
     height: 64px;
     border: none;
     border-top-left-radius: 8px;
@@ -146,7 +146,7 @@
 }
 
 .Check-in—Check-out {
-    width: 25%;
+    width: 259px;
     height: 64px;
     border: none;
     font-size: 18px;
@@ -155,7 +155,7 @@
 }
 
 .Adults—0Children—1Room {
-    width: 25%;
+    width: 314px;
     height: 64px;
     border: none;
     font-size: 18px;
@@ -164,7 +164,7 @@
 }
 
 .btn {
-    width: 15%;
+    width: 192px;
     height: 64px;
     background: #3077C6;
     border: none;
@@ -3010,4 +3010,3 @@
         margin-top: 120px;
     }
 }
-sa
