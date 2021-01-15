@@ -673,9 +673,6 @@
         padding: 8px;
     }
     .Hotel__mobile {
-        background-image: url(img/Zoom.svg);
-        background-repeat: no-repeat;
-        padding: 16px 8px 16px 22px;
         height: 48px;
         font-weight: 500;
         font-size: 15px;
@@ -688,6 +685,12 @@
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
         
+    }
+    .Hotel__mobile::placeholder{
+        background-image: url(../img/Zoom.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 16px 8px 16px 22px;
     }
     .check_input {
         display: flex;
@@ -1091,7 +1094,7 @@
         -o-border-radius: 4px;
     }
     .Hotel__mobile::placeholder {
-        background-image: url(/img/Zoom.svg);
+        background-image: url(../img/Zoom.svg);
         background-position: left;
         background-repeat: no-repeat;
         padding: 16px 8px 16px 22px;
@@ -1493,7 +1496,7 @@
         -o-border-radius: 4px;
     }
     .Hotel__mobile::placeholder {
-        background-image: url(/img/Zoom.svg);
+        background-image: url(../img/Zoom.svg);
         background-position: left;
         background-repeat: no-repeat;
         padding: 16px 8px 16px 22px;
@@ -1873,7 +1876,7 @@
         -o-border-radius: 4px;
     }
     .Hotel__mobile::placeholder {
-        background-image: url(/img/Zoom.svg);
+        background-image: url(../img/Zoom.svg);
         background-position: left;
         background-repeat: no-repeat;
         padding: 16px 8px 16px 22px;
@@ -2212,7 +2215,7 @@
         -o-border-radius: 4px;
     }
     .Hotel__mobile::placeholder {
-        background-image: url(/img/Zoom.svg);
+        background-image: url(../img/Zoom.svg);
         background-position: left;
         background-repeat: no-repeat;
         padding: 16px 8px 16px 22px;
@@ -2548,7 +2551,7 @@
         -o-border-radius: 4px;
     }
     .Hotel__mobile::placeholder {
-        background-image: url(/img/Zoom.svg);
+        background-image: url(../img/Zoom.svg);
         background-position: left;
         background-repeat: no-repeat;
         padding: 16px 8px 16px 22px;
@@ -2856,27 +2859,33 @@
     .container {
         max-width: 90%;
     }
+
+    .form__descr>p{
+        margin-right: 115px;
+        font-size: 14px;
+    }
+
     .Hotel {
         width: 33%;
         height: 64px;
         border: none;
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
-        font-size: 15px;
+        font-size: 13px;
         color: #383838;
     }
     .Check-in—Check-out {
         width: 25%;
         height: 64px;
         border: none;
-        font-size: 15px;
+        font-size: 13px;
         color: #383838;
     }
     .Adults—0Children—1Room {
         width: 25%;
         height: 64px;
         border: none;
-        font-size: 15px;
+        font-size: 13px;
         color: #383838;
     }
     .btn {
@@ -2888,7 +2897,7 @@
         border-bottom-right-radius: 8px;
         outline: none;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 28px;
         color: #FFFFFF;
     }
